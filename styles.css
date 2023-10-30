@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+body {
+    font-family: "Bitter", sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.my-table {
+    border-collapse: collapse;
+}
+
+    .my-table td {
+        border: 1px solid black;
+        padding: 10px;
+    }
